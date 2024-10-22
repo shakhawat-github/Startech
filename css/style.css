@@ -55,8 +55,9 @@ a{
     font-size: 15px;
 }
 
-.product-items .item{
+.product-items .item {
     width: 250px;
+    margin-bottom: 10px;
 }
 
 .product-items .item .item-image{
