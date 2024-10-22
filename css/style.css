@@ -57,6 +57,7 @@ a{
 
 .product-items .item{
     width: 250px;
+    margin-bottom: 11px;
 }
 
 .product-items .item .item-image{
