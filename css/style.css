@@ -62,10 +62,13 @@ a{
 .product-items .item .item-image{
     background-color: #fff;
     position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .product-items .item .item-image img{
     margin-top: 22px;
     margin-left: 25px;
+    padding-bottom: 17px;
 }
 .product-items .item .item-image span{
     color: rgb(255, 255, 255);
@@ -81,18 +84,26 @@ a{
 .product-items .item .item-desc{
     margin-top: 3px;
     background-color: #fff;
-    padding: 16px;
+    padding: 16px 10px;
+    height: 150px;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .product-items .item .item-desc h3{
     font-weight: 400;
     font-size: 15px;
+    line-height: 20px;
 }
 .product-items .item .item-desc h4{
     font-size: 17px;
     margin-top: 61px;
     font-weight: 600;
     color: rgb(239, 74, 35);
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
 }
 .product-items .item .item-desc h4 span{
     color:  rgb(102, 102, 102);
