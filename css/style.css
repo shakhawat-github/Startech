@@ -33,6 +33,21 @@ a{
 
 
 /* category start */
+
+#category{
+    background-color: #F2F4F8;
+   padding: 56px 0px;
+}
+
+#category .product-header{
+    margin-bottom: 32px;
+}
+
+.category-item{
+
+}
+
+
 /* category end */
 
 
