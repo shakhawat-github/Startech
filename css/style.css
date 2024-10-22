@@ -43,6 +43,12 @@ a{
     margin-bottom: 32px;
 }
 
+.categories{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px 10px;
+}
+
 .category-item{
 background-color: #fff;
 border-radius: 15px;
@@ -54,7 +60,8 @@ border-radius: 15px;
 
 .category-item h4{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 15px;
 }
 .category-item h4:hover{
     color: rgb(239, 74, 35);
