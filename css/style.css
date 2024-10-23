@@ -18,8 +18,12 @@ a{
     text-decoration: none;
     display: inline-block;
 }
- 
-
+body{
+    background-color: #f2f4f8;
+}
+.container {
+    max-width: 1600px;
+}
 /* common css end */
 
 /* nav start */
@@ -33,6 +37,124 @@ a{
 
 
 /* category start */
+#category .text {
+    padding: 12px 20px 8px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 33px;
+    font-size: 14px;
+    color: #444;
+    min-height: 40px;
+}
+
+#category .title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#service .title h2 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+#category .title p {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #01132d;
+    line-height: 26px;
+}
+.row>* {
+    padding-right: 4px;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+#category .sidebyside {
+    display: flex;
+    justify-content: space-between;
+}
+
+#category .item .icon {
+    margin-bottom: 20px;
+    text-align: center;
+    background: #fff;
+    width: 184px;
+    height: 150px;
+    padding-top: 35px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+#category .item .power {
+    height: 180px;
+}
+#category .item .icon ion-icon {
+    font-size: 60px;
+    padding-bottom: 10px;
+    color: #171717b0;
+}
+
+#category .item .icon h5 {
+    font-size: 16px;
+    width: 182px;
+}
+#category .main {
+    background: linear-gradient(125deg,#0bc1e9,#3749bb,#00237e);
+    height: 170px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 70px 0;
+}
+#service .main .store{
+    display: flex;
+    align-items: center;
+}
+
+#category .main .sidebyside {
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#category .main .location {
+    font-size: 57px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#category .main .store_text h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+#category .main .store_text p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+#category .store_one {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#category .store_one a {
+    background: #ef9919;
+    padding: 19px 52px;
+    border-radius: 50px;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    gap: 10px;
+    display: flex;
+    margin-right: 50px;
+}
+#category .store_one a ion-icon{
+    font-size: 25px;
+}
+
 /* category end */
 
 
