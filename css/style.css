@@ -33,6 +33,7 @@ img{
 #header {
   padding: 15px 0 0;
   background-color: #081621;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 #header .top {
   display: flex;
@@ -136,7 +137,6 @@ img{
 @keyframes gradient {
   0% {
     background-position: 0 50%;
-    opacity: 0;
   }
   50% {
     background-position: 100% 50%;
@@ -151,9 +151,6 @@ img{
     opacity: 1;
   }
 
-  50% {
-    opacity: 0;
-  }
 
   100% {
     opacity: 1;
@@ -163,6 +160,7 @@ img{
 #header .navbar {
     background-color: #fff;
     margin-top: 15px;
+    padding: 0;
 }
 #header .navbar .navbar-nav{
     width: 100%;
@@ -183,7 +181,7 @@ img{
 /* banner start */
 
 #banner{
-margin-top: 10px ;
+margin-top: 27px ;
 }
 /* #banner .row{
     column-gap: 20px;
@@ -298,12 +296,15 @@ input, select, textarea{
 }
 
 .category-item {
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  padding: 15px 0;
-  text-align: center;
-  cursor: pointer;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.category-item  img{
+    width: 35%;
 }
 
 .category-item h4 {
@@ -401,11 +402,7 @@ input, select, textarea{
   position: relative;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-}
-.product-items .item .item-image img {
-  margin-top: 22px;
-  margin-left: 25px;
-  padding-bottom: 17px;
+  padding: 20px;
 }
 .product-items .item .item-image span {
   color: rgb(255, 255, 255);
@@ -435,6 +432,7 @@ input, select, textarea{
 }
 .product-items .item .item-desc h3:hover {
   color: rgb(239, 74, 35);
+  text-decoration: underline;
 }
 .product-items .item .item-desc h4 {
   font-size: 17px;
