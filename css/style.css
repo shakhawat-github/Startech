@@ -310,13 +310,8 @@ input, select, textarea{
   margin: 0;
   font-weight: 500;
 }
-/* support end */
 
-/* service start */
-.container{
-  max-width: 1600px;
-}
-#service .text {
+#support .text {
   padding: 12px 20px 8px;
   background: #fff;
   margin-top: 30px;
@@ -325,6 +320,9 @@ input, select, textarea{
   color: #444;
   min-height: 40px;
 }
+/* support end */
+
+/* service start */
 
 #service .title {
   text-align: center;
