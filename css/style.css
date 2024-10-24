@@ -556,6 +556,7 @@ textarea {
 /* footer start */
 
 #footer {
+  margin-top: 95px;
   padding: 50px 0 0;
   position: relative;
   background-color: #081621;
