@@ -276,6 +276,45 @@ textarea {
 /* banner end */
 
 /* service start */
+#service {
+  padding-top: 50px;
+}
+#service .servicebox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+}
+#service .servicebox .item {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+}
+#service .servicebox .item i {
+  padding: 20px;
+  background-color: #ef4a23;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 25px;
+  color: #fff;
+  margin-right: 20px;
+}
+#service .servicebox .item h2 a {
+  color: #000;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+#service .servicebox .item h2 span {
+  color: #444;
+  margin: 0;
+  line-height: 27px;
+  font-size: 15px;
+  display: block;
+}
 /* service end */
 
 /* category start */
@@ -459,21 +498,21 @@ textarea {
   font-weight: 400;
   margin: 0 0 20px;
 }
-#description .descriptbox .itembox{
+#description .descriptbox .itembox {
   display: flex;
   flex-direction: column;
 }
-#description .descriptbox .item h3{
-    font-size: 18px;
-    margin: 25px 0 12px;
+#description .descriptbox .item h3 {
+  font-size: 18px;
+  margin: 25px 0 12px;
 }
-#description .descriptbox .item p{
+#description .descriptbox .item p {
   margin-bottom: 10px;
   font-size: 15px;
   color: #01132d;
   line-height: 26px;
 }
-#description .descriptbox .item p span{
+#description .descriptbox .item p span {
   color: #ff0000;
 }
 /* description end */
