@@ -309,7 +309,7 @@ textarea {
 .category-item h4 {
   font-weight: 400;
   font-size: 14px;
-  margin-top: 15px;
+  margin-top: 16px;
 }
 .category-item:hover h4 {
   color: rgb(239, 74, 35);
@@ -375,7 +375,7 @@ textarea {
 #product {
   background-color: #f2f4f8;
   padding-top: 56px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 .product-header {
   margin-bottom: 34px;
