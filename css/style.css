@@ -276,6 +276,42 @@ input, select, textarea{
 
 /* banner end */
 
+
+/* support start */
+#support a {
+  padding: 15px 20px;
+  align-items: center;
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+  color: #ef4a23;
+  gap: 20px;
+}
+#support a .icon {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 50px;
+  background: #ef4a23;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 9px;
+}
+#support a span {
+  color: #000;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+#support a p {
+  color: #444;
+  margin: 0;
+  font-weight: 500;
+}
+/* support end */
+
 /* service start */
 .container{
   max-width: 1600px;
