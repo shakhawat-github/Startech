@@ -280,6 +280,29 @@ input, select, textarea{
 /* service end */
 
 /* category start */
+
+#category .store_one {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#category .store_one a {
+    background: #ef9919;
+    padding: 19px 52px;
+    border-radius: 50px;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    gap: 10px;
+    display: flex;
+    margin-right: 50px;
+}
+#category .store_one a ion-icon{
+    font-size: 25px;
+}
+
+/* category end */
 /* category end */
 
 /* store start */
