@@ -20,7 +20,12 @@ a {
   display: inline-block;
 }
  
-
+img{
+  width: 100%;
+}
+body{
+  background-color: #f2f4f8;
+}
 /* common css end */
 
 /* nav start */
